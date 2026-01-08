@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChildFunny1</string>
+    <string name="top_title_name">ピタッと！！ごきげん</string>
+    <string name="age_select_text">お子さんの年齢を選んでください</string>
+    <string name="age_select_btn_1">０〜6ヶ月</string>
+    <string name="age_select_btn_2">6〜12ヶ月</string>
+    <string name="age_select_btn_3">1歳</string>
+    <string name="age_select_btn_4">2歳〜</string>
+    <string name="game_select_text">ゲーム選択</string>
+    <string name="game_select_btn_1">キラキラ</string>
+    <string name="game_select_btn_2">ワンワン</string>
+    <string name="game_select_btn_3">ふわふわ</string>
+    <string name="game_select_btn_4">ブーブー</string>
+</resources>
