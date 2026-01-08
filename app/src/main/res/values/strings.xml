@@ -6,6 +6,7 @@
     <string name="age_select_btn_2">6〜12ヶ月</string>
     <string name="age_select_btn_3">1歳</string>
     <string name="age_select_btn_4">2歳〜</string>
+    <string name="age_select_btn_5">戻る</string>
     <string name="game_select_text">ゲーム選択</string>
     <string name="game_select_btn_1">キラキラ</string>
     <string name="game_select_btn_2">ワンワン</string>

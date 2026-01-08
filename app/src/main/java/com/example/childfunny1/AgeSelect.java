@@ -37,11 +37,14 @@ public class AgeSelect extends AppCompatActivity {
         ageSelectBtn3Text.setText(R.string.age_select_btn_3);
         final TextView ageSelectBtn4Text = (TextView) findViewById(R.id.button4);
         ageSelectBtn4Text.setText(R.string.age_select_btn_4);
+        final TextView ageSelectBtn5Text = (TextView) findViewById(R.id.button5);
+        ageSelectBtn5Text.setText(R.string.age_select_btn_5);
         //ボタンのリスナ
         Button btn1 = (Button)findViewById(R.id.button1);
         Button btn2 = (Button)findViewById(R.id.button2);
         Button btn3 = (Button)findViewById(R.id.button3);
         Button btn4 = (Button)findViewById(R.id.button4);
+        Button btn5 = (Button)findViewById(R.id.button5);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -80,6 +83,16 @@ public class AgeSelect extends AppCompatActivity {
 
 //                Intent intent = new Intent(AgeSelect.this, XXX.class);
 //                startActivity(intent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // タップされたときの処理をここに記述します
+                Toast.makeText(AgeSelect.this, "ボタン１がタップされました。", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(AgeSelect.this, MainActivity.class);
+                startActivity(intent);
             }
         });
     }
